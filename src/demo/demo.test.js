@@ -9,7 +9,7 @@ test("array total tobe 6", () => {
     expect(total()).toBe(6);
 });
 
-// 对象,数组使用匹配
+// 对象,数组使用toEqual匹配
 test("matchObj equal directly", () => {
     expect(matchObj()).toEqual({name: 'jack', age: 18});
 });
