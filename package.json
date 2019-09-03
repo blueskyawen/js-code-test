@@ -1,0 +1,31 @@
+{
+  "name": "js-code-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test_c": "jest --coverage",
+    "test_w": "jest --watch"
+  },
+  "jest": {
+    "testRegex": "./src/.*.(test|spec).jsx?$"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blueskyawen/js-code-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blueskyawen/js-code-test/issues"
+  },
+  "homepage": "https://github.com/blueskyawen/js-code-test#readme",
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.9.0",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
