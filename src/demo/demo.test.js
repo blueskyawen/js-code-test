@@ -1,6 +1,6 @@
 import {sum, total, matchObj} from './demo';
 
-// toBe使用 === 匹配对象数组
+// toBe使用 === 匹配
 test("add 1 + 2  tobe 3", () => {
     expect(sum(1,2)).toBe(3);
 });
